@@ -1,0 +1,64 @@
+# Trabajo Evaluativo: Vectores y Matrices
+
+Este proyecto reúne varios ejercicios prácticos en C# sobre vectores y matrices, aplicados a situaciones reales como inventarios, ventas y calificaciones.  
+El objetivo es afianzar el manejo de estas estructuras de datos y comprender su importancia en la organización y procesamiento de información.
+
+---
+
+## 📌 Problema 1 – Inventario exprés (Vectores)
+
+### Análisis
+- El vector permite almacenar todos los códigos.
+- Para **buscar**, se recorre todo el vector y se cuentan coincidencias.
+- Para **insertar**, hay que desplazar los elementos a la derecha.
+- Para **eliminar**, se encuentra el código y se desplazan los elementos a la izquierda.
+- **Complejidad:** `O(n)`.
+
+### Recursos
+- **Pruebas** (ejecuciones en consola).  
+- **Diagrama de flujo 1**.
+
+---
+
+## 📌 Problema 2 – Mapa de ventas (Matriz 4×5)
+
+### Análisis
+- Se crea una matriz de 4 filas (productos) × 5 columnas (días L–V).
+- Calcular **total por producto**: suma por fila.
+- Calcular **total por día**: suma por columna.
+- Identificar el **producto líder** (mayor total).
+- Determinar el **día más bajo** (menor total).
+- **Complejidad:** `O(n·m)`.
+
+### Recursos
+- **Pruebas** (ejecuciones en consola).  
+- **Diagrama de flujo 2**.
+
+---
+
+## 📌 Problema 3 – Notas y alertas (Matriz m×k)
+
+### Análisis
+- Se crea una matriz de **m estudiantes** × **k asignaturas**.
+- Llenar la matriz y vectores con datos ingresados por el usuario.
+- Calcular **promedio por estudiante** (filas).
+- Calcular **promedio por asignatura** (columnas).
+- Identificar el **estudiante top** (mayor promedio).
+- Identificar la **asignatura más exigente** (menor promedio).
+- Generar **alertas** para estudiantes con promedio `< 3.0`.
+- **Complejidad:** `O(m·k)`.
+
+### Recursos
+- **Pruebas** (ejecuciones en consola).  
+- **Diagrama de flujo 3**.
+
+---
+
+## 📌 Conclusiones
+El desarrollo de este trabajo permitió comprender la importancia de los vectores y matrices como herramientas fundamentales para organizar datos de forma práctica. A través de los ejercicios propuestos, experimentamos con diferentes vectores y matrices, aplicando operaciones básicas como inserción, eliminación y búsqueda de datos.  
+Para llevar a cabo dichas operaciones resulta esencial recorrer los elementos en cada fila y/o columna. Este proceso permitió reforzar la lógica de programación y entender cómo estas estructuras de datos son la base para resolver problemas más complejos en la vida real.
+
+---
+
+## 👤 Autor
+Trabajo realizado por: **Jelen Emmanuel**
